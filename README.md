@@ -21,9 +21,16 @@ pip install psutil
 pip install pillow
 ```
 
-## Test data
-https://zenodo.org/record/8385040
+## Format requirements for Large-scale data transformation
+* 8bit/16bit,uncompression/LZW,Stripe storage<br>
+* image size in x/y: less than 50000 x 50000<br>
+* image size in z: none<br>
 
+## Note
+1. Do not perform other operations on the computer during the Large-scale data transformation.
+2. The storage device must support high efficiency and long-term reading.
+3. More continuous the storing address of the 2D image sequence, faster the data transformation speed.
+4. All paths cannot contain Chinese characters and Spaces.
 
 ## Parameter description
 
