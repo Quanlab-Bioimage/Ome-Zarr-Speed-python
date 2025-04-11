@@ -12,8 +12,8 @@ def createZarrData(config):
 
 if __name__ == '__main__':
     config = {
-        'imgPath': r'E:\xueguan',  # imgPath
-        'savePath': r'E:\test-Ome-Zarr',  # savePath
+        'imgPath': r'E:\imgslice',  # imgPath
+        'savePath': r'H:\omeZarr',  # savePath
         'sampleType': 0,  # 0:max 1:mean
         'startEpoch': 0,
         'noUseCpuNumber': 1,  # noUseCpuNumber
